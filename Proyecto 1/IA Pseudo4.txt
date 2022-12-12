@@ -1,0 +1,19 @@
+Inicio
+def GetAsig(prof): 
+SI prof < len(Alumnos):
+ repita i en examenes 
+  	Asignacion[Alumnos[prof]] = i
+	llamar a la función recursiva sumando 1 
+ si no 
+        Imprimir asignación 
+examenes = [1,2,3]
+Problema ={
+	'Juan':['Jorge','Diana'],
+	'Jorge':['Juan','Laura'],
+	'Diana':['Jorge'],
+	'Laura':['Jorge'],
+	'Carlos':[]
+}
+Creación lista con los alumnos
+repita alumno asignando 0 a cada uno de ellos
+Llama a la función recursiva inciando con profundidad 0
